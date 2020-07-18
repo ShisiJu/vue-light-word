@@ -1,15 +1,9 @@
 {
   "name": "vue-light-word",
   "version": "0.1.0",
-  "scripts": {
-
-  },
-  "dependencies": {
-
-  },
-  "devDependencies": {
-
-  },
+  "scripts": {},
+  "dependencies": {},
+  "devDependencies": {},
   "eslintConfig": {
     "root": true,
     "env": {
@@ -23,5 +17,9 @@
       "parser": "babel-eslint"
     },
     "rules": {}
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:ShisiJu/vue-light-word.git",
+  "author": "steven.ju",
+  "license": "MIT"
 }

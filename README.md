@@ -12,7 +12,7 @@ import VueHighLight from 'vue-light-word'
 
 Vue.config.productionTip = false
 // 在new之前注册v-light
-// VueHighLight(Vue, 'default-light')
+// VueHighLight(Vue, {defaultClass: 'default-light'})
 VueHighLight(Vue)
 new Vue({
   render: h => h(App),
@@ -20,14 +20,12 @@ new Vue({
 }).$mount('#app')
 ```
 
-
 ## 使用
-
 
 注意: 需要自己写一个全局的高亮class `.default-light`, 处理默认样式问题
 
 ```css
- .rcc-light {
+ .default-light {
     color: red;
   }
 ```
